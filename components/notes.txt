@@ -1,0 +1,11 @@
+js act as html(jsx),
+scss act as css.
+
+Sass fortawesome/@fontawesome node modules:
+$ npm i --save @fortawesome/fontawesome-svg-core
+$ npm i --save @fortawesome/free-solid-svg-icons
+$ npm i --save @fortawesome/react-fontawesome
+
+OR
+
+$ npm i --save @fortawesome/fontawesome-svg-core  @fortawesome/free-solid-svg-icons @fortawesome/react-fontawesome
