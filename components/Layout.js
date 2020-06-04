@@ -3,10 +3,11 @@ import Head from "next/head";
 
 import Header from "./Header";
 import NavBar from "./NavBar";
-import navButtons from "../config/buttons";
 
 import "./Layout.scss";
 import "./index.scss";
+
+import navButtons from "../config/buttons";
 
 const Layout = props => {
   const appTitle = `> HIRO DELIVERY`;

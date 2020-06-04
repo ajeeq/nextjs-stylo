@@ -1,5 +1,4 @@
 import Layout from "../components/Layout";
-// import "./index.scss";
 import Link from "next/link";
 
 const Index = () => (
@@ -10,6 +9,7 @@ const Index = () => (
       </Link>
   </Layout>
 );
+
 export default Index;
 
 // import Head from 'next/head'
