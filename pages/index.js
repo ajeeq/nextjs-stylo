@@ -1,5 +1,5 @@
 import Layout from "../components/Layout";
-import "./index.scss";
+// import "./index.scss";
 import Link from "next/link";
 
 const Index = () => 

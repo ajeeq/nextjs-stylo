@@ -6,17 +6,15 @@ import NavBar from "./NavBar";
 import navButtons from "../config/buttons";
 
 import "./Layout.scss";
-import "../pages/index.scss";
+import "./index.scss";
 
-const Layout = props => {
+const Layout = (props) => {
   const appTitle = `> HIRO DELIVERY`;
 
   return (
     <div className="Layout">
       <Head>
         <title>HIRO DELIVERY</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <meta charSet="utf-8" />
       </Head>
 
       <Header appTitle={appTitle} />
