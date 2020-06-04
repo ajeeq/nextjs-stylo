@@ -2,14 +2,14 @@ import Layout from "../components/Layout";
 // import "./index.scss";
 import Link from "next/link";
 
-const Index = () => 
+const Index = () => (
 <Layout>
   <br />
     <Link href="/explore">
       <a> Welcome to Hiro Delivery! Start Exploring Now</a>
     </Link>
-</Layout>;
-
+</Layout>
+);
 export default Index;
 
 // import Head from 'next/head'

@@ -8,7 +8,7 @@ import navButtons from "../config/buttons";
 import "./Layout.scss";
 import "./index.scss";
 
-const Layout = (props) => {
+const Layout = props => {
   const appTitle = `> HIRO DELIVERY`;
 
   return (

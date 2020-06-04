@@ -1,7 +1,7 @@
 import "./NavBar.scss";
 import NavButton from "./NavButton";
 
-const NavBar = (props) => (
+const NavBar = props => (
   <div className="NavBar">
     {props.navButtons.map(button => (
       <NavButton
