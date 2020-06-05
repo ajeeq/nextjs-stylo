@@ -1,13 +1,13 @@
 // ===== style-jsx ===== //
 import Head from "next/head";
 
-import Header from "./Header";
-import NavBar from "./Navbar";
+import Header from "../header/Header";
+import NavBar from "../navbar/Navbar";
 
 import "./Layout.scss";
-import "./index.scss";
+import "../index.scss";
 
-import navButtons from "../config/buttons";
+import navButtons from "../../config/buttons";
 
 const Layout = props => {
   const appTitle = `> HIRO DELIVERY`;
